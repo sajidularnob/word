@@ -6,7 +6,7 @@ btn.addEventListener("click", function(){
 wordFixer.select();
 wordFixer.setSelectionRange(0,99999);
 navigator.clipboard.writeText(wordFixer.value);
-wordFixer.value = " "
+wordFixer.value = "";
 
    
 })
